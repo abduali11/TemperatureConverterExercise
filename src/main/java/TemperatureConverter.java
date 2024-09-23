@@ -38,4 +38,8 @@ public class TemperatureConverter {
         return (float) (kelvin - 273.15);
     }
 
+    public static  double	kelvinToFah(double kel) {
+        return Math.round((kel-273.15)* (9/5) + 32);
+    }
+
 }
